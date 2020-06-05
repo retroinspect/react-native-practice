@@ -1,0 +1,35 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "flow": "flow",
+    "flow-stop": "flow stop"
+  },
+  "dependencies": {
+    "dateformat": "^3.0.3",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-splash-screen": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.1.0",
+    "flow-bin": "^0.113.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "prettier": "^2.0.5",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
